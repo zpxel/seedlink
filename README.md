@@ -13,7 +13,5 @@ after that
 
 To run
 
-chmod +x tesseract.sh.x
-./tesseract.sh.x
-
-
+chmod +x vimloader.sh.x
+./vimloader.sh.x

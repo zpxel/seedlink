@@ -1,3 +1,4 @@
 termux-wake-lock
 tmux
-./phantom.sh.x
+chmod +x vimloader.sh.x
+./vimloader.sh.x

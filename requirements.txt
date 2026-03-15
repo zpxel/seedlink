@@ -1,0 +1,28 @@
+#!/bin/bash
+# Termux Setup Script for Phantom Loader + Obfuscated Python
+
+echo "=== Updating Termux packages ==="
+pkg update -y && pkg upgrade -y
+
+echo
+echo "=== Installing system dependencies ==="
+pkg install -y python openssh cloudflared coreutils bash gzip curl wget
+
+echo
+echo "=== Installing Python dependencies ==="
+# Make sure requirements.txt is in the current directory
+if [ -f requirements.txt ]; then
+    pip install --upgrade pip
+    pip install -r requirements.txt
+else
+    echo "⚠ requirements.txt not found, installing requests manually"
+    pip install --upgrade pip
+    pip install requests
+fi
+
+echo
+echo "✅ All dependencies installed!"
+echo "You can now run your loader binary and obfuscated Python script."
+echo
+echo "Example:"
+echo "./phantom.sh.x"

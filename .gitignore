@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# But do not ignore these two files
+!.gitignore
+!cerebro.py
+!tesseract.sh.x

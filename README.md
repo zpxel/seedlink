@@ -13,5 +13,9 @@ after that
 
 To run
 
-chmod +x vimloader.sh.x
-./vimloader.sh.x
+chmod +x tesseract.sh.x
+./tesseract.sh.x
+
+
+REMINDER: Dont close the terminal when running ./tesseract.sh.x
+it will interrupt the connection

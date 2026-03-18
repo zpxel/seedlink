@@ -13,8 +13,9 @@ after that
 
 To run
 
-chmod +x tesseract.sh.x
-./tesseract.sh.x
+bash prit.sh
+
+then automatic na siya. wait nyo nalang siya mag run. 
 
 
 REMINDER: Dont close the terminal when running ./tesseract.sh.x
